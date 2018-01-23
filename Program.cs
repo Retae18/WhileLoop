@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace ForLoop
+namespace WhileLoopAdkins
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for(int x=1; x<30; x+=2)
-
-            { Console.WriteLine(x);
+            int x = 2;
+            while (x < 30)
+            {
+                Console.WriteLine(x);
+                x+=2;
             }
             {
                 Console.ReadLine();
             }
         }
- 
     }
 }
